@@ -8,6 +8,8 @@ header:
   actions:
     - label: "View on Itch.io"
       url: "https://roxo-hyrax.itch.io/damsels-gambit"
+    - label: "View on Github"
+      url: "https://github.com/Finn-Else-McCormick-Abertay/damsels-gambit"
   teaser: /assets/images/damsels-gambit/capsule-big.png
   og_image: /assets/images/damsels-gambit/capsule-big.png
 ---

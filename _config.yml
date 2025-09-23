@@ -21,13 +21,13 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Finn Else-McCormick"
 description              : "My Portfolio."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+url                      : "https://throckmorpheus.github.io/portfolio"
+baseurl                  : 
+repository               : "throckmorpheus/portfolio"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
+breadcrumbs              : false
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
@@ -98,8 +98,8 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Person
+  name                   : Finn Else-McCormick
   links: # An array of links to social media profiles
 
 # Analytics
@@ -149,6 +149,11 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+    order:
+      - damsels-gambit.md
+      - rummy-ai.md
+      - wasm-scripting.md
+      - astar-parallel.md
 
 # Reading Files
 include:
