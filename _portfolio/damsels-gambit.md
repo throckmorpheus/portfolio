@@ -14,9 +14,11 @@ header:
   og_image: /assets/images/damsels-gambit/capsule-big.png
 ---
 
-Damsel's Gambit was the result of a cross-course university group project. Made in Godot, it is a cross between a visual novel and a card game.
+Damsel's Gambit is a cross between a visual novel and a card game, where you combine 'topic' and 'action' cards to instigate conversations and affect characters' opinions of you.
 
-I served as the lead programmer (etc)
+The result of a cross-course university project, it is short but highly polished, acting as a full vertical slice of what it would be as a full release.
+
+One of three technical team members, I served as lead programmer. We worked in the Godot engine using C#.
 
 (Add something about how I also worked with design early on when we were figuring out the main mechanic)
 
